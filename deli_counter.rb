@@ -22,7 +22,7 @@ end
 
 def take_a_number(array, person)
   if katz_deli.length == 0 
-  katz_deli.push(arg2)
+  katz_deli.push(person)
   i = katz_deli.length
   puts "Welcome, #{katz_deli.last}. You are number #{i} in line."
 end
