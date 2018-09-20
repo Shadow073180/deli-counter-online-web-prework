@@ -20,9 +20,9 @@ string = new_array.join
 end 
 
 
-def take_a_number(array, person)
-  katz_deli.push(person)
-  put katz_deli
+def take_a_number(arg1, arg2)
+  katz_deli.push(arg2)
+  puts katz_deli
   
 end
 
