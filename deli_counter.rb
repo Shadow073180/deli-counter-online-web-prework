@@ -29,7 +29,7 @@ def take_a_number(arg1, arg2)
   elsif other_deli > 0
   o = other_deli.length -1
     other_deli.push(arg2)
-    puts"Welcome, #{other_deli.last}. You are number #{o} in line."
+    puts"Welcome, #{other_deli[o]}. You are number #{o} in line."
   end
 end
 
