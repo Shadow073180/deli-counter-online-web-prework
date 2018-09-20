@@ -1,1 +1,40 @@
-# Write your code here.
+def line(array)
+katz_deli= []  
+  array.each do |x|
+    katz_deli.push(x)
+  end
+    if katz_deli.length == 0 
+      puts "The line is currently empty."
+    elsif katz_deli.length > 0 
+      new_array = []
+      new_array2 = []
+      a = 0
+        array2 = ["1.", "2.", "3.", "4.", "5.", "6.", "7.", "8.", "9.", "10."]
+        katz_deli.each do |y|
+        new_array.push(" #{array2[a]} #{y}")
+      a += 1 
+      end
+string = new_array.join
+        puts"The line is currently:#{string}"
+    end
+end 
+
+
+def take_a_number(array, person)
+  katz_deli= []  
+  array.each do |x|
+    katz_deli.push(x)
+  end
+  if katz_deli.length < 1 
+    
+    puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
+  end
+end
+    
+
+
+ 
+ 
+      
+    
+        
