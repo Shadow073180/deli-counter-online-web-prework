@@ -25,10 +25,8 @@ def take_a_number(array, person)
   array.each do |x|
     katz_deli.push(x)
   end
-  if katz_deli.length == 0 
-    katz_deli.push(person)
-   y = katz_deli.join
-   puts "Welcome, #{y}. You are number 1 in line."
+  if katz_deli.length < 1
+    puts 
     
     
   end
