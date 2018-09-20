@@ -22,8 +22,8 @@ end
 
 def take_a_number(array, person)
   katz_deli.push(person)
-  i = array.length -1
-  puts "Welcome #{katz_deli[katz_deli[i]]}. you are number #{i} in line. "
+  put katz_deli
+  
 end
 
     
