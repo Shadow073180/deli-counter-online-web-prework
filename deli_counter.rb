@@ -25,12 +25,7 @@ def take_a_number(array, person)
   katz_deli.push(arg2)
   i = katz_deli.length
   puts "Welcome, #{katz_deli.last}. You are number #{i} in line."
-
-  elsif other_deli.length > 0
-  o = other_deli.length 
-    other_deli.push(arg2)
-    puts"Welcome, #{other_deli[o]}. You are number #{o} in line."
-  end
+end
 end
 
     
