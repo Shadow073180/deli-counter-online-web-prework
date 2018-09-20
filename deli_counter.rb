@@ -23,7 +23,7 @@ end
 def take_a_number(arg1, arg2)
   katz_deli.push(arg2)
   i = katz_deli.length
-  puts "Welcome #{katz_deli.last}. You are number #{i} in line."
+  puts "Welcome, #{katz_deli.last}. You are number #{i} in line."
   
 end
 
