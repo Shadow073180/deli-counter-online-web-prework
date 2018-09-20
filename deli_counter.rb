@@ -21,11 +21,16 @@ end
 
 
 def take_a_number(arg1, arg2)
+  if katz_deli.length == 0 
   katz_deli.push(arg2)
   i = katz_deli.length
   puts "Welcome, #{katz_deli.last}. You are number #{i} in line."
-  
-end
+
+  elsif other_deli > 0
+  o = other_deli.length
+    other_deli.push(arg2)
+    puts"Welcome, #{katz_deli.last}. You are number #{o} in line."
+  end
 
     
 
