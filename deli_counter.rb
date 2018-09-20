@@ -21,8 +21,8 @@ end
 
 
 def take_a_number(array, person)
-  i = array.length
   array.push(person)
+  i = array.length
   puts "Welcome #{i}. you are number #{i} in line. "
 end
     
