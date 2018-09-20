@@ -25,6 +25,11 @@ def take_a_number(array, person)
   array.push(person)
   i = array.length
   puts "Welcome, #{array.last}. You are number #{i} in line."
+  
+  elsif array.length > 0 
+  array.push(person)
+  i = array.length
+  puts "Welcome, #{array.last}. You are number #{i} in line."
 end
 end
 
