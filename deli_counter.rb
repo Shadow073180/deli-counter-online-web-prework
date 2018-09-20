@@ -37,13 +37,12 @@ end
 
 def now_serving(array)
   case array.length
-  
     when > 0
       puts "Currently serving #{array.first}."
       array.shift
-  
-    when 0
+    else
       puts "There is nobody waitng to be served!"
+    end
 
 end
     
