@@ -27,8 +27,10 @@ def take_a_number(array, person)
   end
   if katz_deli.length == 0 
     katz_deli.push(person)
+   y = katz_deli.join
+   puts "Welcome, #{y}. You are number 1 in line."
     
-    puts katz_deli
+    
   end
 end
     
