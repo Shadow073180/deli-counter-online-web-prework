@@ -20,7 +20,7 @@ string = new_array.join
 end 
 
 
-def take_a_number(arg1, arg2)
+def take_a_number(array, person)
   if katz_deli.length == 0 
   katz_deli.push(arg2)
   i = katz_deli.length
