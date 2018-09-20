@@ -31,6 +31,7 @@ def take_a_number(arg1, arg2)
     other_deli.push(arg2)
     puts"Welcome, #{katz_deli.last}. You are number #{o} in line."
   end
+end
 
     
 
