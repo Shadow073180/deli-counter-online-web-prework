@@ -33,6 +33,12 @@ def take_a_number(array, person)
 end
 end
 
+
+
+def now_serving(array)
+  
+end
+
     
 
 
