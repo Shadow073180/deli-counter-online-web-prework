@@ -42,7 +42,7 @@ def now_serving(array)
       array.shift
     else
       puts "There is nobody waitng to be served!"
-    end
+  
 
 end
     
