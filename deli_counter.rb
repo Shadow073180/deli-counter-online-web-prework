@@ -28,7 +28,7 @@ def take_a_number(array, person)
   if katz_deli.length == 0 
     katz_deli.push(person)
     
-    puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
+    puts katz_deli
   end
 end
     
